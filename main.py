@@ -5,7 +5,7 @@ TOKEN= "oameraghvserjg"
 
 pixela_endpoint = "https://pixe.la/v1/users"
 user_params={
-    "token": "oameraghvserjg",
+    "token": os.environ['TOKEN'],
     "username": "eddypham",
     "agreeTermsOfService": "yes",
     "notMinor": "yes"
